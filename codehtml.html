@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>Ghoraba Gym Website</title>
+		<link rel="stylesheet" type="text/css" href="css/csscodee.css"/>
+				<script>
+			var welcomeText = document.querySelector('#content h1');
+			welcomeText.textContent = 'Welcome to Ghoraba Gym!';
+
+			var slideshowImage = document.querySelector('#slideshow img');
+			slideshowImage.addEventListener('click', function() {
+				alert('You clicked on the gym image!');
+			});
+		</script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<h1>Ghoraba Gym</h1>
+			</div>
+			<div id ="navbar">
+				<ul>
+					<li><a href="#">Homepage</a></li>
+					<li><a href="#">About us</a></li>
+					<li><a href="#">Contact us</a></li>
+				</ul>
+			</div>
+			<div id="slidshow">
+				<img src="C:\Users\GIGABYTE\Desktop\gym website project\images\8fbe973ae31d6c3869bbddb0bb30a04d.jpg"/>
+			</div>
+			<div id="content">
+				<h1>Welcome to Ghoraba Gym!</h1>
+					<p>
+							At our gym you get all the support you need to reach your goal.You will have a trainer to guide you and provide you with
+							proven workouts. Other gyms make exercise feel like work. we want to help you see that fitness done right is leisure.
+							<img src="C:\Users\GIGABYTE\Desktop\gym website project\images\e93ef92f4168d2e200674c3cc77a290a.jpg"/>
+					</p>
+			</div>
+			<div id="footer"><p>Powered by our team</p></div>
+		</div>
+	</body>
+</html>
